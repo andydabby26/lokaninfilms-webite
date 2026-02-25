@@ -1,0 +1,584 @@
+[
+    {
+        "description": "Create a cinematic homepage with hero section featuring director's name, title, and artistic statement. Design should be minimal, dark, and restrained with generous whitespace. Include navigation to selected works, about, and contact. Use a dark neutral base (#0a0a0a or #1a1a1a) with clean typography. Hero should have either a full-width subtle video or dark image background. Typography should be editorial and timeless.",
+        "type": "feature",
+        "passes": true,
+        "id": 1
+    },
+    {
+        "description": "Create a selected works section displaying 3-5 film projects in a curated grid. Each project should show a striking still image, film title, year, and director's role. Projects should be clickable to navigate to dedicated project pages. Design with ample spacing between projects and large imagery. Use a consistent card layout with minimal text overlay.",
+        "type": "feature",
+        "passes": true,
+        "id": 2
+    },
+    {
+        "description": "Create an about page with first-person director bio. Content should focus on artistic themes, creative approach, and curiosity rather than biographical details. Keep text short and intimate. Design with centered column layout, generous margins, and restrained typography. Include a subtle portrait or space for an image.",
+        "type": "feature",
+        "passes": true,
+        "id": 3
+    },
+    {
+        "description": "Create a recognition section on the homepage displaying festival selections and awards. Present cleanly without exaggeration, using a simple list format. Include festival name, year, and project title. Style with minimal visual hierarchy.",
+        "type": "feature",
+        "passes": true,
+        "id": 4
+    },
+    {
+        "description": "Create a project page template with large hero image or embedded video player. Include project title, year, format (feature/short), and director's role. Add a director's note section explaining artistic intention. Include a clean credits section with crew roles. Design with dark background, excellent readability, and generous spacing.",
+        "type": "feature",
+        "passes": true,
+        "id": 5
+    },
+    {
+        "description": "Create a contact page with minimal, direct approach. Include email address, optional representation info, and social links. Design with centered layout, restrained typography, and no unnecessary forms. Only include what's essential for collaboration and contact.",
+        "type": "feature",
+        "passes": true,
+        "id": 6
+    },
+    {
+        "description": "Implement a global design system with dark neutral color palette, editorial typography, subtle motion, and excellent accessibility. Ensure fast loading, high contrast, and mobile-first responsive design. Add subtle transitions only where they enhance pacing. Implement smooth scrolling behavior.",
+        "type": "feature",
+        "passes": true,
+        "id": 7
+    },
+    {
+        "description": "Make all navigation links interactive and functional. Ensure links properly navigate to Home, About, Contact pages. Make project cards clickable and navigate to individual project pages.",
+        "type": "feature",
+        "passes": true,
+        "id": 8
+    },
+    {
+        "description": "Change the homepage to display only 1 selected work (feature film or primary project) and integrate the awards and festival selections directly with that single project display, showing achievements below or alongside the project.",
+        "type": "feature",
+        "passes": true,
+        "id": 9
+    },
+    {
+        "description": "Refine the about page to have a more CV-like aesthetic while maintaining consistency with the rest of the site. Include sections for Bio, Filmography, Awards/Recognition, Skills/Expertise, and Contact Info. Use the same dark theme and typography system.",
+        "type": "feature",
+        "passes": true,
+        "id": 10
+    },
+    {
+        "description": "Redesign the contact page to be minimal and direct - just display email address, phone number (if available), and social media links. Remove any contact form or unnecessary elements. Keep it clean and simple.",
+        "type": "feature",
+        "passes": true,
+        "id": 11
+    },
+    {
+        "description": "Update all instances of the director's name to 'Andreas Daban Elvesund'. Update the title/role to 'Indie Director & Musician'. Update the artistic statement and about section copy to reflect this dual creative practice (film and music).",
+        "type": "feature",
+        "passes": true,
+        "id": 12
+    },
+    {
+        "description": "Remove Vimeo and Spotify links from the contact page. Replace them with YouTube and Instagram links. Keep email and phone. Display only YouTube and Instagram as social media links.",
+        "type": "feature",
+        "passes": true,
+        "id": 13
+    },
+    {
+        "description": "Make YouTube and Instagram links fully interactive and clickable, linking directly to: YouTube: https://www.youtube.com/@LoklaninFilms and Instagram: https://www.instagram.com/andreas.daban/",
+        "type": "feature",
+        "passes": true,
+        "id": 14
+    },
+    {
+        "description": "Update the featured selected project to 'Golden Hours' (short film). Add the following awards: 'Nominated to First Time Filmmaker Festival 2025' and 'Winner of Stockholm Film Festival Junior 2025 (1 minute film)'. Display these awards prominently with the project.",
+        "type": "feature",
+        "passes": true,
+        "id": 15
+    },
+    {
+        "description": "Fetch video content from the YouTube channel https://www.youtube.com/@LoklaninFilms and extract video titles and descriptions. Integrate these into the project pages and homepage featured work section to display movie information with descriptions.",
+        "type": "feature",
+        "passes": true,
+        "id": 16
+    },
+    {
+        "description": "Update all personal information: Full name Andreas Daban Elvesund, based in Sweden. Update the hero section with the artistic vision: 'I want to make movies to make people feel and get inspired.'",
+        "type": "feature",
+        "passes": true,
+        "id": 17
+    },
+    {
+        "description": "Completely rewrite the About/Bio section with Andreas's actual biography. Include his focus on short films, young people, the difference between what people show vs feel, natural performances, calm pacing, limited dialogue, use of silence/framing/sound, importance of music and color, open endings, philosophy of observation and honesty. Make it feel personal and authentic to his voice.",
+        "type": "feature",
+        "passes": true,
+        "id": 18
+    },
+    {
+        "description": "Update the filmography with all 4 projects: Golden Hours 2025 (Short film), The deaf kid and the murderer 2022 (Short film), Instagram 2022 (Short film), Thomas Terror 2020 (Short film). Display chronologically with year and format.",
+        "type": "feature",
+        "passes": true,
+        "id": 19
+    },
+    {
+        "description": "Update awards and recognition to show: Winner of Stockholm Filmfestival Junior (1 minute film) and Nominated for First Time Filmmaker Awards. Display prominently with the Golden Hours project.",
+        "type": "feature",
+        "passes": true,
+        "id": 20
+    },
+    {
+        "description": "Update contact information: Primary email andydabby@gmail.com, secondary email lokaninfilms@gmail.com, phone 0704691414 (with note 'texting only'). Make the phone clickable (tel: link) and emails clickable (mailto: links).",
+        "type": "feature",
+        "passes": true,
+        "id": 21
+    },
+    {
+        "description": "Fix YouTube link to be fully interactive and working: https://www.youtube.com/channel/UCmJYcx0T8qrgVDWnfIsYsHg - Make it clickable and test that it opens correctly. Also add Instagram accounts: https://www.instagram.com/andreas.daban/ and https://www.instagram.com/lokaninfilms/ - Make both clickable and open in new tabs.",
+        "type": "feature",
+        "passes": true,
+        "id": 22
+    },
+    {
+        "description": "Remove the film review/description section from the work/project display. Keep only the project title, year, format, and awards. Remove any external content or reviews.",
+        "type": "feature",
+        "passes": true,
+        "id": 23
+    },
+    {
+        "description": "Make the Golden Hours project clickable so that when clicked, it opens an embedded video player where users can watch the full short film. Embed the video directly on the project page (from YouTube or similar).",
+        "type": "feature",
+        "passes": true,
+        "id": 24
+    },
+    {
+        "description": "Remove any music credits or composer information from the project description/synopsis. Instead, add a proper Credits section on the project page with organized categories including a dedicated 'Music' field for composer/music credits.",
+        "type": "feature",
+        "passes": true,
+        "id": 25
+    },
+    {
+        "description": "Embed the Golden Hours YouTube video (https://www.youtube.com/watch?v=xhMJWNTb5-w) on the project page with a proper video player. Display the video thumbnail/front picture prominently. Make the video clickable to play directly within an embedded YouTube player on the portfolio. Ensure the video shows with proper aspect ratio and is responsive on mobile and desktop.",
+        "type": "feature",
+        "passes": true,
+        "id": 26
+    },
+    {
+        "description": "Update the hero section background image to use the Golden Hours still (from the video thumbnail). Replace the current hero background with the image file at /public/images/hero-golden-hours.jpg. Make it full-width, maintain aspect ratio, and keep the dark overlay for text readability. Ensure Andreas's name and artistic statement remain clearly visible over the image.",
+        "type": "feature",
+        "passes": true,
+        "id": 27
+    },
+    {
+        "description": "Update the hero section background image to use the proper Golden Hours thumbnail image from YouTube (now at public/images/hero-golden-hours.jpg). Make this image the hero background with appropriate overlay for text readability. Ensure Andreas's name and artistic statement are clearly visible over the background.",
+        "type": "feature",
+        "passes": true,
+        "id": 28
+    },
+    {
+        "description": "Find and replace the text 'lets create something resonant' with 'lets create something together' throughout the website. Update this in all sections where it appears - hero section, about page, or any other location on the site.",
+        "type": "feature",
+        "passes": true,
+        "id": 29
+    },
+    {
+        "description": "Update the About page to add a blank placeholder space where a portrait photo will go. Leave it empty for now with a subtle background or border so it's ready for a photo to be added later.",
+        "type": "feature",
+        "passes": true,
+        "id": 30
+    },
+    {
+        "description": "Add an Expertise section to the About page that lists: Film expertise (Directing, Editing, Screenwriting), Music expertise (Playing the piano), and Other skills (Creative and engaged). Format it clearly with organized sections for each category.",
+        "type": "feature",
+        "passes": true,
+        "id": 31
+    },
+    {
+        "description": "On the project detail page, change the text 'ANDREAS DABAN ELVESUND' to 'Golden Hour - JVKE' at the specified location (around line 124 in src/web/pages/project-detail.tsx)",
+        "type": "feature",
+        "passes": true,
+        "id": 32
+    },
+    {
+        "description": "Center align the element at line 43 in src/web/pages/project-detail.tsx. Apply centered text alignment or flex centering as appropriate for the element.",
+        "type": "feature",
+        "passes": true,
+        "id": 33
+    },
+    {
+        "description": "Center align the element at line 35 in src/web/pages/project-detail.tsx. Apply centered text alignment or flex centering as appropriate for the element.",
+        "type": "feature",
+        "passes": true,
+        "id": 34
+    },
+    {
+        "description": "Change the project title from 'ANDREAS DABAN ELVESUND' to 'Golden Hour - JVKE' on the project detail page.",
+        "type": "feature",
+        "passes": true,
+        "id": 35
+    },
+    {
+        "description": "Center the content at src/web/pages/project-detail.tsx:43 on the project detail page.",
+        "type": "feature",
+        "passes": true,
+        "id": 36
+    },
+    {
+        "description": "Center the content at src/web/pages/project-detail.tsx:35 on the project detail page.",
+        "type": "feature",
+        "passes": true,
+        "id": 37
+    },
+    {
+        "description": "On the project detail page at line 44, change the text from 'GOLDEN HOUR - JVKE' to 'GOLDEN HOURS'",
+        "type": "feature",
+        "passes": true,
+        "id": 38
+    },
+    {
+        "description": "On the project detail page at line 125, change the text from 'GOLDEN HOUR - JVKE' to 'Andreas Daban Elvesund'",
+        "type": "feature",
+        "passes": true,
+        "id": 39
+    },
+    {
+        "description": "On the About page at line 59, change 'Creative and engaged' to 'Photography' in the Other Skills section",
+        "type": "feature",
+        "passes": true,
+        "id": 40
+    },
+    {
+        "description": "On the About page, reorganize the Filmography section: Keep 'Golden Hours (2025)' under the main Filmography heading, and create a new section called 'Early Works' that contains the other three films: The deaf kid and the murderer (2022), Instagram (2022), and Thomas Terror (2020)",
+        "type": "feature",
+        "passes": true,
+        "id": 41
+    },
+    {
+        "description": "Remove the portrait placeholder from the About page while keeping the layout sleek and clean. Restructure the About page to add a new vertical sidebar section on the side that displays Instagram photos (from @andreas.daban or @lokaninfilms). The sidebar should showcase your creative photography work in a clean, minimal way that matches the site's dark aesthetic. Arrange the section so it's visually balanced with the main about content.",
+        "type": "feature",
+        "passes": true,
+        "id": 42
+    },
+    {
+        "description": "Move the Recognition section higher up on the About page so it's more prominent and noticed earlier. Reorder the sections so Recognition appears before Filmography or Early Works sections, making the awards more visible to visitors.",
+        "type": "feature",
+        "passes": true,
+        "id": 43
+    },
+    {
+        "description": "On the About page at line 16, change the fontSize from '16px' to '20px'",
+        "type": "feature",
+        "passes": true,
+        "id": 44
+    },
+    {
+        "description": "On the About page at line 44, change the fontSize from '20px' to '16px'",
+        "type": "feature",
+        "passes": true,
+        "id": 45
+    },
+    {
+        "description": "On the About page at line 171, remove the text 'Visual notes on light, silence, and the human condition.' and leave it blank/empty",
+        "type": "feature",
+        "passes": true,
+        "id": 46
+    },
+    {
+        "description": "In the layout component at line 6, change 'ANDREAS DABAN ELVESUND' to 'LokaninFilms' in the header/logo",
+        "type": "feature",
+        "passes": true,
+        "id": 47
+    },
+    {
+        "description": "On the About page at line 163, remove the image source (change from the Unsplash URL to empty/blank)",
+        "type": "feature",
+        "passes": true,
+        "id": 48
+    },
+    {
+        "description": "On the About page at line 17, make the text/element bigger and more noticeable by increasing font size, weight, or adding visual emphasis",
+        "type": "feature",
+        "passes": true,
+        "id": 49
+    },
+    {
+        "description": "On the About page at line 63, add a subtitle under Andreas's name that says: 'Filmmaker, director, editor, piano Player and photographer.'",
+        "type": "feature",
+        "passes": true,
+        "id": 50
+    },
+    {
+        "description": "On the Contact page at line 24, reorder the email addresses so that lokaninfilms@gmail.com appears first/on top, before andydabby@gmail.com",
+        "type": "feature",
+        "passes": true,
+        "id": 51
+    },
+    {
+        "description": "In the layout component at line 5, change the navigation link text from 'About' to 'About the creator'",
+        "type": "feature",
+        "passes": true,
+        "id": 52
+    },
+    {
+        "description": "In the layout component at line 11, change the navigation text to 'Creator and vision'",
+        "type": "feature",
+        "passes": true,
+        "id": 53
+    },
+    {
+        "description": "Replace the entire homepage hero section with the new LokaninFilms photo. Update the background image to use the new photo at /images/hero-lokaninfilms.jpg. Replace all text on the hero with 'LokaninFilms' displayed in the same cinematic style (large, bold Syne typography). Remove the previous text including 'Andreas Daban Elvesund' name, title, and artistic statement. Keep the dark overlay and ensure 'LokaninFilms' text is prominent and readable over the photo.",
+        "type": "feature",
+        "passes": true,
+        "id": 54
+    },
+    {
+        "description": "In the layout component at line 12, change 'CONTACT' to 'CONTACTS' in the navigation",
+        "type": "feature",
+        "passes": true,
+        "id": 55
+    },
+    {
+        "description": "On the project detail page at line 114, add a new credit entry for Cinematography with Andreas Daban Elvesund's name. Add it to the credits list after the Director credit.",
+        "type": "feature",
+        "passes": true,
+        "id": 56
+    },
+    {
+        "description": "On the project detail page at line 28, replace the current hero image with the new beach scene still from Golden Hours. Update the image source to use /images/project-golden-hours-beach.jpg",
+        "type": "feature",
+        "passes": true,
+        "id": 57
+    },
+    {
+        "description": "Update the project detail page hero image to display the beach scene from Golden Hours at /images/project-golden-hours-beach.jpg. Ensure the image loads and displays properly on the project page.",
+        "type": "feature",
+        "passes": true,
+        "id": 58
+    },
+    {
+        "description": "On the project detail page, replace the large hero image/video section with the beach scene photo from Golden Hours. Make sure the beach photo displays as the main large hero image at the top, not the small video thumbnail. Keep the video player visible but use the beach photo as the primary display image.",
+        "type": "feature",
+        "passes": true,
+        "id": 59
+    },
+    {
+        "description": "On the project detail page, change the video player thumbnail/poster image back to the original Golden Hours thumbnail (hero-golden-hours.jpg). Keep the large hero image as the beach scene photo, but restore the video thumbnail to show the original Golden Hours image from YouTube.",
+        "type": "feature",
+        "passes": true,
+        "id": 60
+    },
+    {
+        "description": "Add a grayscale-to-color hover effect to the video player thumbnail on the project detail page. When users hover over the video thumbnail, it should transition from grayscale to full color (400ms ease-out transition).",
+        "type": "feature",
+        "passes": true,
+        "id": 61
+    },
+    {
+        "description": "On the homepage/start page, ensure the featured project thumbnail displays the original Golden Hours image (hero-golden-hours.jpg), not the beach photo. The beach photo should only appear as the large hero image on the project detail page.",
+        "type": "feature",
+        "passes": true,
+        "id": 62
+    },
+    {
+        "description": "In the layout component at line 22, change the copyright text from '\u00a9 2026 ANDREAS DABAN ELVESUND' to '\u00a9 2026 LokaninFilms'",
+        "type": "feature",
+        "passes": true,
+        "id": 63
+    },
+    {
+        "description": "In the layout component at line 23, remove the text 'INDIE DIRECTOR & MUSICIAN' and leave it empty/blank",
+        "type": "feature",
+        "passes": true,
+        "id": 64
+    },
+    {
+        "description": "Find and replace all instances of 'ANDREAS DABAN ELVESUND' with 'LokaninFilms' throughout the entire website. This includes the footer, meta tags, headers, and any other locations where the copyright or name appears.",
+        "type": "feature",
+        "passes": true,
+        "id": 65
+    },
+    {
+        "description": "Find and replace all instances of '\u00a9 2026 ANDREAS DABAN ELVESUND' or similar copyright notices with '\u00a9 2026 LokaninFilms' throughout the website to maintain consistent branding.",
+        "type": "feature",
+        "passes": true,
+        "id": 66
+    },
+    {
+        "description": "Optimize the entire website for mobile devices (phones). Ensure all text is readable at small screen sizes, buttons and links are touch-friendly (48px minimum), images scale properly, navigation is mobile-friendly with hamburger menu if needed, and spacing/padding is appropriate for small screens. Test responsiveness at 320px, 375px, and 480px widths.",
+        "type": "feature",
+        "passes": true,
+        "id": 67
+    },
+    {
+        "description": "Optimize the website for tablets (iPad). Ensure the layout uses a 2-column or balanced multi-column grid where appropriate, text remains readable, images scale beautifully, and navigation is easy to use with touch. Test responsiveness at 768px and 1024px widths.",
+        "type": "feature",
+        "passes": true,
+        "id": 68
+    },
+    {
+        "description": "Optimize the website for laptops and desktops. Ensure the full 3-column layout (sidebar, content, info) displays beautifully, proper spacing and whitespace, text is comfortable to read at normal viewing distance. Test at 1280px, 1440px, and 1920px widths.",
+        "type": "feature",
+        "passes": true,
+        "id": 69
+    },
+    {
+        "description": "Optimize the website for large screens and TV displays (4K). Ensure content doesn't stretch too wide, implement max-width constraints, maintain readability at distance, scale images and typography appropriately for large displays. Test at 2560px+ widths.",
+        "type": "feature",
+        "passes": true,
+        "id": 70
+    },
+    {
+        "description": "Implement fluid responsive design across all breakpoints. Use CSS media queries to adjust font sizes, spacing, grid layouts, and element visibility. Ensure smooth transitions between breakpoints using clamp() for fluid typography and flexible layouts.",
+        "type": "feature",
+        "passes": true,
+        "id": 71
+    },
+    {
+        "description": "On the About page at line 26, change the fontSize from '9px' to '11px'",
+        "type": "feature",
+        "passes": true,
+        "id": 72
+    },
+    {
+        "description": "On the About page at line 32, change the fontSize from '18px' to '16px'",
+        "type": "feature",
+        "passes": true,
+        "id": 73
+    },
+    {
+        "description": "On the About page at line 32, change the text from 'YouTube\n@andreas.daban\n@lokaninfilms' to 'YouTube LokaninFilms\nInsta @andreas.daban\nInsta @lokaninfilms'",
+        "type": "feature",
+        "passes": true,
+        "id": 74
+    },
+    {
+        "description": "On the About page at line 64, change the text from 'LOKANINFILMS' to 'Andreas daban elvesund'",
+        "type": "feature",
+        "passes": true,
+        "id": 75
+    },
+    {
+        "description": "On the project detail page at line 125, change the text from 'LOKANINFILMS' to 'ANDREAS DABAN ELVESUND'",
+        "type": "feature",
+        "passes": true,
+        "id": 76
+    },
+    {
+        "description": "Update the homepage hero section to use the new cinematic nature/artistic image at /images/hero-lokaninfilms-nature.jpg. Keep the 'LokaninFilms' text overlay in the same large Syne typography style. Maintain the dark moody aesthetic with the dark overlay. Ensure the text remains readable and centered over the new background.",
+        "type": "feature",
+        "passes": true,
+        "id": 77
+    },
+    {
+        "description": "In the layout header/navigation (top left corner), add the LokaninFilms logo image next to the text 'LokaninFilms'. Make the image smaller (around 40-60px height). Position it to the left of the text, creating a logo + text combination. The image should be at /images/lokaninfilms-logo.jpg",
+        "type": "feature",
+        "passes": true,
+        "id": 78
+    },
+    {
+        "description": "Update the homepage hero background image to use the new movie/cinema-themed image at /images/hero-lokaninfilms-cinema.jpg. The background should feature film strips, cameras, or cinematic lighting elements.",
+        "type": "feature",
+        "passes": true,
+        "id": 79
+    },
+    {
+        "description": "Add a glow effect to the 'LokaninFilms' text on the hero section. Apply a soft text-shadow or filter-based glow (like drop-shadow or blur) that makes the text glow slightly. The glow should be subtle, using white or light colors, creating a cinematic luminous effect without being too bright.",
+        "type": "feature",
+        "passes": true,
+        "id": 80
+    },
+    {
+        "description": "Increase the glow effect on the 'LokaninFilms' hero text. Make it more prominent and luminous by increasing the text-shadow blur radius and opacity. Create a stronger cinematic glow effect.",
+        "type": "feature",
+        "passes": true,
+        "id": 81
+    },
+    {
+        "description": "Remove the LokaninFilms logo image from the top left corner of the header. Remove the image element from the navigation while keeping the 'LokaninFilms' text.",
+        "type": "feature",
+        "passes": true,
+        "id": 82
+    },
+    {
+        "description": "On the contacts page, add (+46) before the phone number. The phone number should now display as '+46 0704691414' or similar format.",
+        "type": "feature",
+        "passes": true,
+        "id": 83
+    },
+    {
+        "description": "Convert the top navigation into a dropdown/collapsible column menu. Instead of horizontal links (Home, Work, Creator and vision, Contacts), make them appear in a vertical column that can be opened/closed. Add a hamburger menu icon or toggle button to show/hide the navigation options.",
+        "type": "feature",
+        "passes": true,
+        "id": 84
+    },
+    {
+        "description": "On the About page at line 25, change the phone number from '0704691414' to '(+46) 704691414'",
+        "type": "feature",
+        "passes": true,
+        "id": 85
+    },
+    {
+        "description": "On the Contact page at line 33, change the phone number from '(+46) 0704691414' to '(+46) 704691414' - remove the leading zero after the country code",
+        "type": "feature",
+        "passes": true,
+        "id": 86
+    },
+    {
+        "description": "Add a new 'Lokanin's Story' section to the website. Create a new page that describes what LokaninFilms does, what they want to do in the future, and who they are. This should include their mission, vision, and background as an indie director and musician. Add a link to this page in the collapsible navigation menu alongside Home, Work, Creator and vision, and Contacts.",
+        "type": "feature",
+        "passes": true,
+        "id": 87
+    },
+    {
+        "description": "On the Story page at line 84, change the fontFamily from 'Syne, sans-serif' to 'Arial'",
+        "type": "feature",
+        "passes": true,
+        "id": 88
+    },
+    {
+        "description": "On the Story page at line 83, remove the text 'Email\nContact' and leave it empty/blank",
+        "type": "feature",
+        "passes": true,
+        "id": 89
+    },
+    {
+        "description": "When the side menu/navigation is open, add a blur effect to the background content behind it. Apply a backdrop blur or background blur filter so that the menu text is easier to read and stands out from the blurred background. The blur should be visible when the menu is open and disappear when closed.",
+        "type": "feature",
+        "passes": true,
+        "id": 90
+    },
+    {
+        "description": "Connect the 'Work' section to link directly to the Golden Hours project page. When users click on 'Work' in the navigation menu or the work section on the homepage, it should navigate to the Golden Hours project detail page with the video and beach photo.",
+        "type": "feature",
+        "passes": true,
+        "id": 91
+    },
+    {
+        "description": "On the About page at line 164, change the image source from empty string to '/@website-editor/images/37b0f8fb2d2e.jpg'",
+        "type": "feature",
+        "passes": true,
+        "id": 92
+    },
+    {
+        "description": "Update the 'Work' link in the sidebar navigation to point directly to the Golden Hours project detail page where the video player and beach photo are displayed. When clicking 'Work' in the sidebar menu, it should navigate to the project page with the video preview section.",
+        "type": "feature",
+        "passes": true,
+        "id": 93
+    },
+    {
+        "description": "On the Lokanin's Story page, remove or hide the 'Vision' section. Keep the other content but remove the vision-related text/section.",
+        "type": "feature",
+        "passes": true,
+        "id": 94
+    },
+    {
+        "description": "Add a drag-and-drop photo upload interface to the Creator/About page. Users should be able to drag and drop images directly onto a designated area, and the photos will be stored and displayed. Implement local storage or a simple file upload system. Keep the interface minimal and cinematic to match the site design.",
+        "type": "feature",
+        "passes": false,
+        "id": 95
+    },
+    {
+        "description": "Create a photo gallery section on the Creator/About page that displays up to 6 photos. Use the same vertical sidebar layout/style as the current photography section. Make the photos easily replaceable through the drag-and-drop interface.",
+        "type": "feature",
+        "passes": false,
+        "id": 96
+    },
+    {
+        "description": "Set up a simple photo management system where users can: (1) Drag and drop new images onto the gallery area, (2) See a preview of uploaded photos, (3) Delete or replace photos. Store photos locally in the browser or in a simple file-based system that persists across sessions.",
+        "type": "feature",
+        "passes": false,
+        "id": 97
+    }
+]

@@ -1,0 +1,15 @@
+{
+  "id": "81wtoxmz6buhtu39eaxu86kxqwcoe6z9",
+  "name": "LokaninFilms",
+  "description": "Official site for LokaninFilms and Andreas Daban Elvesund an Filmmaker, Indie Director, Editor, Piano player, Photographer.",
+  "url": "https://lokaninfilms.com",
+  "ogImage": "/og-image.png",
+  "favicon": "/vite.svg",
+  "twitter": {
+    "card": "summary_large_image",
+    "site": "@runable"
+  },
+  "themeColor": "#000000",
+  "previewPort": 3877,
+  "previewUrl": "https://3877-ijemcuz2eivxpwjpzwddd.e2b.app"
+}
